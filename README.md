@@ -4,16 +4,16 @@ GymPass clone API.
 
 # FRs (Functional requirements)
 
-- [x] Should be able to registration;
-- [x] Should be able to authenticate;
-- [x] Should be able get the profile of a logged user;
-- [x] Should be able get the number of check-ins performed by the logged in user;
-- [x] Should be able the user gets their check-in history;
-- [x] Should be able the user can search for nearby gyms (up to 10km);
-- [x] Should be able the user searches for a gym by name;
-- [x] Should be able the user checks in at a gym;
-- [x] Should be able validate a user's check-in;
-- [x] Should be able to register a gym;
+- [x] It should be able to registration;
+- [x] It should be able to authenticate;
+- [x] It should be able get the profile of a logged user;
+- [x] It should be able get the number of check-ins performed by the logged in user;
+- [x] It should be able for the user gets their check-in history;
+- [x] It should be able for the user can search for nearby gyms (up to 10km);
+- [x] It should be able for the user searches for a gym by name;
+- [x] It should be able for the user checks in at a gym;
+- [x] It should be able validate a user's check-in;
+- [x] It should be able to register a gym;
 
 # BRs (Business rules)
 
