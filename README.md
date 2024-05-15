@@ -1,32 +1,32 @@
 # App
 
-GymPass clone API
+GymPass clone API.
 
-# Functional Requirements (FRs)
+# FRs (Functional requirements)
 
-[x] User registration should be possible.
-[x] User authentication should be possible.
-[x] Retrieving the profile of a logged-in user should be possible.
-[x] Retrieving the number of check-ins made by the logged-in user should be possible.
-[x] The user should be able to view their check-in history.
-[x] The user should be able to search for nearby gyms (up to 10km).
-[x] The user should be able to search for gyms by name.
-[x] The user should be able to check in to a gym.
-[x] Validating a user's check-in should be possible.
-[x] Gym registration should be possible.
+- [x] Should be able to registration;
+- [x] Should be able to authenticate;
+- [x] Should be able get the profile of a logged user;
+- [x] Should be able get the number of check-ins performed by the logged in user;
+- [x] Should be able the user gets their check-in history;
+- [x] Should be able the user can search for nearby gyms (up to 10km);
+- [x] Should be able the user searches for a gym by name;
+- [x] Should be able the user checks in at a gym;
+- [x] Should be able validate a user's check-in;
+- [x] Should be able to register a gym;
 
-# Business Rules (BRs)
+# BRs (Business rules)
 
-[x] Users should not be able to register with a duplicate email address.
-[x] Users cannot make 2 check-ins on the same day.
-[x] Users cannot check in if they are not within 100 meters of the gym.
-[x] Check-ins can only be validated up to 20 minutes after they are created.
-[x] Check-ins can only be validated by administrators.
-[x] Gyms can only be registered by administrators.
+- [x] User must not be able to register with a duplicate email;
+- [x] User can not do two check-ins on the same day;
+- [x] User can not check in if they are not close (100m) to the gym;
+- [x] Check-in can only be validated up to 20 minutes after it is created;
+- [x] Check-in can only be validated by administrators;
+- [x] Gym can only be registered by administrators;
 
-# Non-Functional Requirements (NFRs)
+# NFRs (Non-functional requirements)
 
-[x] User passwords must be encrypted.
-[x] Application data must be persisted in a PostgreSQL database.
-[x] All data lists must be paginated with 20 items per page.
-[x] The user should be identified by a JWT (Jason Web Token).
+- [x] User password must be encrypted;
+- [x] Application data must be persisted in a PostgreSQL database;
+- [x] All data lists must be paginated with 20 items per page;
+- [x] User must be identified by a JWT(Json Web Token);
